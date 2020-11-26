@@ -1,2 +1,78 @@
 testCaseType,testTitle,testConf_01,testConf_02,testConf_03,testConf_04,testConf_05,waitTime
-EVENTWEEKDAY,reserveDate_weekDayTest,
+//平日料金、1泊、1名、朝食なし、プランなし
+EVENTID,datepicker,datePick,,,,,1000
+EVENTCSS,,td.active.day,,,,,1000
+EVENTWEEKDAY,reserveDate_weekDayTest,datePick,,,,,1000
+EVENTTERM,reserveTermTest_1day,reserve_term,1,,,,1000
+EVENTID,,reserve_term,,,,,1000
+EVENTHEADCOUNT,reserveHeadCountTest_1people,headcount,1,,,,1000
+EVENTID,,headcount,,,,,1000
+EVENTBREAKFAST,Breakfast_not_order,breakfast_off,off,,,,1000
+EVENTLINK,DetailTest_PlanDetail,各プランの詳細,,,,,1000
+TESTALART,AlartTest_PlanDetail,,,未実装,,,1000
+EVENTGUESTNAME,GuestName_YoshinoKazuhiro,guestname,吉野和宏,,,,1000
+
+EVENTID,GoToNext,agree_and_goto_next,,,,,1000
+
+//合計金額検証
+TESTPRICE,weekDay_1day_1people_BFnotOrder_planAnotOrder_planBnotOrder,price,7000,,,,1000
+EVENTLINK,DetailTest_PlanDetail,料金詳細を確認,,,,,1000
+TESTALART,AlartTest_PriceDetail,,,未実装,,,1000
+//期間検証
+TESTTERM,reserveTermTest_1day,datefrom,dateto,dayscount,,,1000
+//人数検証
+TESTHEADCOUNT,reserveTest_1people,hc,,,,,1000
+//朝食検証
+TESTBREAKFAST,breakFast_notOrder,bf_order,,,,,1000
+//名前検証
+TESTGUESTNAME,name_吉野和宏,gname,,,,,1000
+
+EVENTID,returnReserveForm,returnto_index,,,,,1000
+REFRESH,,,,,,1000
+
+
+
+//休日料金、1泊、1名、朝食なし、プランなし
+//TC002 宿泊初日火曜日 4泊 9名 朝食あり プランA
+//TC003 宿泊初日火曜日 5泊 1名 朝食あり
+//TC004 宿泊初日火曜日 5泊 8名 朝食なし プランA
+//TC005 宿泊初日火曜日 5泊 9名 朝食なし プランA プランB
+//TC006 宿泊初日火曜日 6泊 2名 朝食なし プランA プランB
+//TC007 宿泊初日火曜日 9泊 8名 朝食あり プランB
+//TC008 宿泊初日金曜日 1泊 8名 朝食無し プランA プランB
+//TC009 宿泊初日金曜日 2泊 2名 朝食あり プランB
+//TC010 宿泊初日金曜日 2泊 8名 朝食なし プランA
+//TC011 宿泊初日金曜日 3泊 1名 朝食なし プランA
+//TC012 宿泊初日金曜日 8泊 2名 朝食なし プランA プランB
+//TC013 宿泊初日金曜日 9泊 9名 朝食あり
+//TC014 宿泊初日月曜日 1泊 9名 朝食なし プランA
+//TC015 宿泊初日月曜日 5泊 2名 朝食なし
+//TC016 宿泊初日月曜日 6泊 9名 朝食なし プランA
+//TC017 宿泊初日月曜日 7泊 1名 朝食あり
+//TC018 宿泊初日月曜日 7泊 8名 朝食なし         プランB
+//TC019 宿泊初日水曜日 9泊 1名 朝食あり プランA プランB
+//TC020 宿泊初日水曜日 1泊 2名 朝食なし
+//TC021 宿泊初日水曜日 3泊 8名 朝食あり プランA
+//TC022 宿泊初日水曜日 4泊 1名 朝食あり プランA プランB
+//TC023 宿泊初日水曜日 4泊 2名 朝食なし
+//TC024 宿泊初日水曜日 5泊 9名 朝食なし          プランB
+//TC025 宿泊初日水曜日 9泊 8名 朝食なし プランA
+//TC026 宿泊初日土曜日 1泊 1名 朝食なし
+//TC027 宿泊初日土曜日 2泊 1名 朝食なし
+//TC028 宿泊初日土曜日 7泊 9名 朝食あり プランA プランB
+//TC029 宿泊初日土曜日 8泊 8名 朝食あり           プランB
+//TC030 宿泊初日土曜日 9泊 2名 朝食なし プランA
+//TC031 宿泊初日日曜日 1泊 9名 朝食なし
+//TC032 宿泊初日日曜日 6泊 8名 朝食あり
+//TC033 宿泊初日日曜日 6泊 1名 朝食なし             プランB
+//TC034 宿泊初日日曜日 7泊 2名 朝食なし プランA
+//TC035 宿泊初日日曜日 8泊 9名 朝食なし プランA
+//TC036 宿泊初日日曜日 9泊 2名 朝食あり プランA プランB
+//TC037 宿泊初日木曜日 1泊 1名 朝食あり プランA
+//TC038 宿泊初日木曜日 2泊 9名 朝食なし プランA プランB
+//TC039 宿泊初日木曜日 3泊 9名 朝食あり プランA プランB
+//TC040 宿泊初日木曜日 3泊 9名 朝食あり
+//TC041 宿泊初日木曜日 3泊 2名 朝食なし        プランB
+//TC042 宿泊初日木曜日 4泊 8名 朝食なし          プランB
+//TC043 宿泊初日木曜日 8泊 1名 朝食あり
+//TC044 宿泊初日木曜日 9泊 1名 朝食なし
