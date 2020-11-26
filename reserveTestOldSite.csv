@@ -48,7 +48,7 @@ TESTHEADCOUNT,reserveTest_1people,hc,,,,,1000
 //’©HŒŸØ
 TESTBREAKFAST,breakFast_notOrder,bf_order,,,,,1000
 //–¼‘OŒŸØ
-TESTGUESTNAME,name_‹g–ì˜aG,gname,,,,,1000
+TESTGUESTNAME,name_‹g–ì˜aG,gname,,,,,3000
 
 EVENTID,returnReserveForm,returnto_index,,,,,1000
 REFRESH,,,,,,1000
