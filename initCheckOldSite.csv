@@ -1,0 +1,8 @@
+testCaseType,testTitle,testConf_01,testConf_02,testConf_03,testConf_04,testConf_05,waitTime
+TESTTODAY,reserveDateTest_Default,reserve_year,reserve_month,reserve_day,,,1000
+TESTATTRIBUTE,reserveTermTest_Default,reserve_term,1,,,,1000
+TESTATTRIBUTE,reserveHeadCountTest_Default,headcount,1,,,,1000
+TESTATTRIBUTE,BreakfastSelectTest_Default,breakfast_on,on,,,,1000
+TESTCHECKBOX,AplanSelectTest_Default,plan_a,false,,,,1000
+TESTCHECKBOX,BplanSelectTest_Default,plan_b,false,,,,1000
+TESTATTRIBUTE,GuesNameTest_Default,guestname,,,,,1000
